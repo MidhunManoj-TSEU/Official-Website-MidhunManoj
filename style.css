@@ -42,22 +42,94 @@ footer {
     padding: 10px;
     font-size: 14px;
 }
+/* Default Styles for Light Mode */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f9; /* Light neutral background */
+    color: #333; /* Dark text for readability */
+}
+
+header {
+    text-align: center;
+    background: #2e3a59; /* Dark grayish-blue for a professional look */
+    color: white; /* White text in the header */
+    padding: 30px 10px;
+}
+
+footer {
+    text-align: center;
+    background: #f1f1f1; /* Light gray for footer */
+    padding: 10px;
+    font-size: 14px;
+    color: #555; /* Slightly darker text for footer */
+}
+
+a {
+    color: #2e3a59; /* Dark grayish-blue for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #1a2531; /* Slightly darker on hover */
+}
+
+.socials ul, .contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.socials li, .contact li {
+    margin: 5px 0;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text for dark mode */
+}
+
+body.dark-mode header {
+    background: #1f2a3d; /* Darker header for dark mode */
+}
+
+body.dark-mode footer {
+    background: #1f2a3d; /* Dark footer */
+    color: #e0e0e0; /* Light footer text */
+}
+
+body.dark-mode a {
+    color: #90caf9; /* Light blue links for dark mode */
+}
+
+body.dark-mode a:hover {
+    color: #bb86fc; /* Light purple on hover */
+}
+
+/* Dark Mode Toggle Button */
 #darkModeToggle {
     position: fixed;
     top: 20px;
     right: 20px;
     padding: 10px 15px;
-    background-color: #333;
+    background-color: #2e3a59; /* Header-like background */
     color: white;
     border: none;
     border-radius: 8px;
     cursor: pointer;
     z-index: 1000;
+    font-size: 14px;
 }
 
 #darkModeToggle:hover {
-    background-color: #555;
+    background-color: #1a2531; /* Darker on hover */
 }
+
+
+
+
 .profile-image {
     width: 250px;
     height: 250px;
