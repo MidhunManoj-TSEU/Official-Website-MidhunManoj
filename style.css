@@ -64,5 +64,18 @@ footer {
     object-fit: cover; /* Ensures the image doesn't stretch and keeps the aspect ratio */
     border-radius: 50%; /* Optional: To make the image round */
 }
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.header-content img {
+    margin-right: 20px; /* Optional: Space between photo and logo */
+}
+
+.logo {
+    width: 100px; /* Adjust logo size */
+    height: auto;
+}
 
 
