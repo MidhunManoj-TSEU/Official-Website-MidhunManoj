@@ -131,7 +131,7 @@ body.dark-mode a:hover {
 
 
 .profile-image {
-    width: 600px;
+    width: 900px;
     height: auto;
     object-fit: cover; /* Ensures the image doesn't stretch and keeps the aspect ratio */
     border-radius: 100%; /* Optional: To make the image round */
