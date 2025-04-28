@@ -131,10 +131,13 @@ body.dark-mode a:hover {
 
 
 .profile-image {
-    width: 900px;
-    height: auto;
-    object-fit: cover; /* Ensures the image doesn't stretch and keeps the aspect ratio */
-    border-radius: 100%; /* Optional: To make the image round */
+    width: 350px;  /* Adjust width as needed */
+    height: 350px; /* Set height to match width for a square shape */
+    object-fit: cover; /* Ensure image covers the space and doesn't stretch */
+    display: block;
+    margin: 0 auto; /* Center the image */
+    border-radius: 50%; /* Optional: Make it a circle */
+    
 }
 .header-content {
     display: flex;
