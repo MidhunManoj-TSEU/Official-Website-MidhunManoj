@@ -58,4 +58,11 @@ footer {
 #darkModeToggle:hover {
     background-color: #555;
 }
+.profile-image {
+    width: 250px;
+    height: 250px;
+    object-fit: cover; /* Ensures the image doesn't stretch and keeps the aspect ratio */
+    border-radius: 50%; /* Optional: To make the image round */
+}
+
 
