@@ -131,10 +131,10 @@ body.dark-mode a:hover {
 
 
 .profile-image {
-    width: 300px;
+    width: 600px;
     height: auto;
     object-fit: cover; /* Ensures the image doesn't stretch and keeps the aspect ratio */
-    border-radius: 50%; /* Optional: To make the image round */
+    border-radius: 100%; /* Optional: To make the image round */
 }
 .header-content {
     display: flex;
@@ -142,11 +142,11 @@ body.dark-mode a:hover {
 }
 
 .header-content img {
-    margin-right: 20px; /* Optional: Space between photo and logo */
+    margin-right: 30px; /* Optional: Space between photo and logo */
 }
 
 .logo {
-    width: 200px; /* Adjust logo size */
+    width: 150px; /* Adjust logo size */
     height: auto;
 }
 
