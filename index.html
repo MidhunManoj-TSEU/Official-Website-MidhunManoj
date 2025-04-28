@@ -4,18 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="google-site-verification" content="googlec0e2d01369b8dbda"/>
-    <meta name="description" content="Midhun Manoj | Founder & CEO of TECHSPARKS GROUP OF INSTITUTIONS... | Official Portfolio Of Midhun Manoj , Projects">
+    <meta name="description" content="Midhun Manoj | Founder & CEO of TECHSPARKS GROUP OF INSTITUTIONS | Official Portfolio Of Midhun Manoj , Projects">
     <meta name="keywords" content="Midhun Manoj, TechSparks, Founder, CEO, TechSparks Group Of Institutions, Programming, GATE, Data Science, Machine Learning, Education, YouTube, IT Training, Python, C++, Full Stack Web Development, Java ">
     <meta name="author" content="Midhun Manoj">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Midhun Manoj | TechSparks Group Of Institutions</title>
+    <title>Midhun Manoj | Founder & CEO | TechSparks Group Of Institutions</title>
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
     <button id="darkModeToggle">Dark Mode</button>
 
     <header>
-        <img src="CEO.jpg" alt="Midhun Manoj" width="250" heigth="auto">
+        <img src="CEO.jpg" alt="Midhun Manoj, Founder & CEO Of TechSparks Group Of Institutions" width="250" height="auto">
         <h1>Midhun Manoj</h1>
         <h2>Founder & CEO, TECHSPARKS GROUP OF INSTITUTIONS</h2>
         <p>Empowering minds through code and clarity</p>
@@ -104,7 +104,31 @@
         </ul>
     </section>
     <footer>
+      
         <p>&copy; 2025 Midhun Manoj | Powered by TECHSPARKS GROUP OF INSTITUTIONS & TSEU (TechSparks Excellence University)</p>
     </footer>
+      <script>
+    const toggleButton = document.getElementById('darkModeToggle');
+    let darkMode = false;
+
+    toggleButton.addEventListener('click', () => {
+        darkMode = !darkMode;
+        if (darkMode) {
+            document.body.style.background = '#121212';
+            document.body.style.color = '#f1f1f1';
+            toggleButton.textContent = 'Light Mode';
+            document.querySelector('header').style.background = '#1e1e1e';
+            document.querySelector('footer').style.background = '#1e1e1e';
+            document.querySelectorAll('a').forEach(link => link.style.color = '#90caf9');
+        } else {
+            document.body.style.background = '#f9f9f9';
+            document.body.style.color = '#333';
+            toggleButton.textContent = 'Dark Mode';
+            document.querySelector('header').style.background = '#0057a3';
+            document.querySelector('footer').style.background = '#ddd';
+            document.querySelectorAll('a').forEach(link => link.style.color = '#0057a3');
+        }
+    });
+</script>
 </body>
 </html>
